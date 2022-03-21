@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  height: 2500px;
+  background-image: url(bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mvl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10% 15% 0 15%;
+  height: 1500px;
+}
+
+.nmvl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5% 15% 0 15%;
+}
+
+.imc{
+  height: 260px;
+}
+
+.bt{
+  margin-top: 30px;
+}
+.crs{
+  height: 330px;
+  width: 900px;
+  margin-left: 310px;
+}
+.Carousel{
+  height: 400px;
+  width: 700px;
+} 
+
+.w-100{
+  height: 320px;
+  width: 700px;
+}
+
+.srch{
+  width: 400px;
+  margin-left: 550px;
+}
+
+.intro{
+  margin: 5% 17% 0 17%;
+  font-size: x-large;
+  border: 5px black solid;
+  background-color: aliceblue;
+  
+}
+
+.intro h2{
+  color: red;
+}
