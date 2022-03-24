@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 2500px;
+  height: 2000px;
   background-image: url(bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,3 +59,20 @@
 .intro h2{
   color: red;
 }
+
+.am{
+  display: flex;
+  flex-direction: column;
+}
+
+.desc{
+  margin: 5% 17% 0 17%;
+  font-size: x-large;
+  border: 5px black solid;
+  background-color: aliceblue;
+}
+
+.tr{
+  margin-top: 30px;
+}
+

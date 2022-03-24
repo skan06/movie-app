@@ -22,14 +22,14 @@ export default function Add({addMovie}) {
   return (
     <div>
         <Button variant="danger" onClick={handleShow}>
-        Launch demo modal
+        Add a movie card
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Add a movie</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className='am'>
           <label htmlFor='title'>title</label>
           <input type='text' placeholder='Enter the title here' onChange={(e)=>setTitle(e.target.value)}/>
           <label htmlFor='title'>describtion</label>

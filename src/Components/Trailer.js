@@ -9,7 +9,7 @@ export default function Trailer() {
   let navigate=useNavigate();
   return (
     <div className='tr'>
-      <h1>Title:{foundMovie.title}</h1>
+      <h1 style={{color:"red",textDecoration:"underline"}}>{foundMovie.title}</h1>
       <iframe width="560" 
       height="315" 
       src={foundMovie.trailer}
@@ -17,7 +17,10 @@ export default function Trailer() {
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen></iframe>
-      <div>
+      <div className='desc'>
+        <p>{foundMovie.desc}</p>
+      </div>
+      <div style={{marginTop:"20px"}}>
       <Button variant="danger" onClick={()=>navigate(-1)}>Back</Button>
       </div>
     </div>

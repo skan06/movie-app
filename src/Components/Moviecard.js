@@ -12,7 +12,7 @@ function Mvc({x}){
   <Card.Body>
     <Card.Title>{x.title}</Card.Title>
     <Card.Text>
-      {x.describtion} <br/>
+      {x.description} <br/>
       Rate: {x.rate}
     </Card.Text>
     <Link to={`/Trailer/${x.id}`}><Button variant="danger">Trailer</Button></Link>

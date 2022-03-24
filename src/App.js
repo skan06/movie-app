@@ -23,6 +23,7 @@ function App() {
     <Route path="/Trailer/:id" element={<Trailer/>}/>
     <Route path="*" element={<Error/>}/>
   </Routes>
+  
     </div>
   );
 }
